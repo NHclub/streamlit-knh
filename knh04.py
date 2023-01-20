@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.title('TITLE' )
+st.title(':heart:')
 
 
 money = pd.read_csv("money_data7.csv")
