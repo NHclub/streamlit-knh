@@ -3,8 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title('title')
-st.title('A title with _italics_ :blue[colors] and emojis :sunglasses:')
+st.title('TITLE')
 
 money = pd.read_csv("money_data7.csv")
 
