@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title('GG Graph')
-st.title('heart:')
+st.title('GG Graph' and 'emojis :sunglasses:')
+
 
 money = pd.read_csv("money_data7.csv")
 
