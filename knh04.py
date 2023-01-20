@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title('TITLE' )
-st.title(':heart:')
+st.title('TITLE:heart:' )
+
 
 
 money = pd.read_csv("money_data7.csv")
