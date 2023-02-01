@@ -66,7 +66,7 @@ def bar_chart():
     baseball.팀.replace({'두산':'Dusan','삼성':'SS','키움':'KU','한화': 'HH','롯데':'Lotte','넥센':'NecSen'}, inplace=True)
     
     option = st.selectbox(
-        '년도를 선택하세요',
+        'How would you like to choice year ?',
         ('2015', '2016','2017', '2018', '2019', '2020', '2021', '2022'))
 
     option2 = option
@@ -79,7 +79,8 @@ def bar_chart():
     
     fig, ax = plt.subplots(figsize=(12,8))
 
-    colors = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7' ,'C8', 'C9', 'C10' ]
+#     colors = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7' ,'C8', 'C9', 'C10' ]
+    colors=['rainbow']
     plt.bar(  x,  y,  color= colors ) 
 
     for   num ,   v    in   enumerate( y ):
