@@ -66,7 +66,7 @@ def bar_chart():
     baseball.팀.replace({'두산':'Dusan','삼성':'SS','키움':'KU','한화': 'HH','롯데':'Lotte','넥센':'NecSen'}, inplace=True)
     
     option = st.selectbox(
-        'How would you like to choice year ?',
+        '년도를 선택하세요',
         ('2015', '2016','2017', '2018', '2019', '2020', '2021', '2022'))
 
     option2 = option
